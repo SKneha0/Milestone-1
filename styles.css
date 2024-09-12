@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: 4px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h2 {
+    color: #004080;
+    font-size: 1.8em;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 10px;
+}
+
+p, ul {
+    font-size: 1.1em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .profile-img {
+       width: 200px;
+       padding: 150px;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}
